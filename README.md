@@ -5,6 +5,7 @@
 QuickBite Express — a Bengaluru-based food-tech startup — faced a major business disruption in June 2025. A viral food-safety scandal involving partner restaurants and a week-long delivery outage caused:
 
 Massive order drop
+
 Customer trust breakdown
 
 Negative reviews
@@ -14,14 +15,7 @@ Restaurant churn
 Delivery delays
 
 Competitor advantage
-
-This project analyzes Pre-Crisis vs Crisis vs Recovery performance using Power BI to help QuickBite leadership understand:
-
-✔ What went wrong
-✔ Which segments were impacted most
-✔ Which customers/restaurants to target in recovery
-✔ How operations & ratings changed
-✔ Where immediate improvements are needed
+--------------------------------------------------------
 
 🎯 Project Goal
 
@@ -35,11 +29,8 @@ Track decline in orders and ratings
 
 Find high-value customers impacted the most
 
-Measure delivery efficiency (SLA, delays, average delivery time)
-
-Identify partner restaurants at risk
-
 Recommend strategies to rebuild trust and improve retention
+--------------------------------------------------------------------------
 
 📂 Dataset Description
 
@@ -56,17 +47,9 @@ Restaurant Table – ratings, performance, loyalty flag
 Reviews Table – customer ratings and feedback
 
 Date Table – custom calendar with crisis phases
+-------------------------------------------------------------------
 
 🔍 Approach
-1️⃣ Identifying Crisis Phases
-
-Created 3 segments:
-
-Pre-Crisis: Jan–May 2025
-
-Crisis: Jun–Sep 2025
-
-Recovery: Oct–Dec 2025
 
 2️⃣ Data Preparation
 
@@ -84,8 +67,6 @@ Fact Tables: Orders, Delivery, Reviews
 
 Dimension Tables: Customers, Restaurants, Date
 
-Relationship: Date ↔ Orders as primary
-
 4️⃣ DAX Measures
 
 Total Orders
@@ -96,13 +77,14 @@ Crisis Orders
 
 Decline %
 
-Avg Delivery Time
+Cancellation Rate
 
-SLA Breach %
+Sentiment Score
 
-Repeat Customer Rate
+Cancelled Orders
 
-Restaurant Retention Score
+Revenue Loss %
+------------------------------------------------------------------
 
 5️⃣ Dashboard Development
 
@@ -111,14 +93,16 @@ Designed clear, clutter-free visuals
 Added slicers (Month, City, Crisis Phase)
 
 Added icons, KPIs, cards, tooltips
+------------------------------------------------------------
 
 🛠️ Tools & Technologies
-Tool	Purpose
+
 Power BI	Data modelling, DAX, dashboard creation
-Excel	Initial cleaning and exploration
-SQL (optional)	Data filtering and transformation
+
 Power Query	ETL: Extract – Transform – Load
-DAX	Time intelligence & KPI calculations
+
+DAX & KPI calculations
+-------------------------------------------------
 🧩 Data Model
 
 ✔ Star Schema
@@ -126,22 +110,29 @@ DAX	Time intelligence & KPI calculations
 ✔ Calendar as the primary date dimension
 ✔ Segmentation using calculated columns
 
+<img width="1430" height="689" alt="image" src="https://github.com/user-attachments/assets/7cf4438d-d9b1-41ce-ac56-2df5e2958682" />
+-------------------------------------------------------------------------
+
+
 📌 Key Insights
 
 Some major findings:
 
-Orders dropped sharply from 23K+ per month → 9K per month
+Orders dropped sharply from 113.8K+ per month → 35K per month
 
-Average delivery time increased during the crisis
-
-Ratings fell due to delays & food-safety scare
-
-High-value customers churned at highest rate
+Faced a 68.9% decline and a 70% revenue loss, resulting in a cancellation rate of 7.45%.
 
 Repeat customers dropped significantly
 
 SLA compliance went down
 
 Restaurateurs lost trust → partner churn
+----------------------------------------------------------------------
+<img width="1233" height="695" alt="image" src="https://github.com/user-attachments/assets/e5c4669f-bff2-4376-99ab-2b0cb896a624" />
 
-Crisis impact started recovering slowly from October
+<img width="1220" height="683" alt="image" src="https://github.com/user-attachments/assets/c37bda00-b116-44ff-b523-ee43a82f456d" />
+
+<img width="1216" height="680" alt="image" src="https://github.com/user-attachments/assets/679738ff-5f52-4745-a46a-dd967b69ec61" />
+
+
+
