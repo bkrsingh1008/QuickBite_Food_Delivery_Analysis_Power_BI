@@ -5,7 +5,6 @@
 QuickBite Express — a Bengaluru-based food-tech startup — faced a major business disruption in June 2025. A viral food-safety scandal involving partner restaurants and a week-long delivery outage caused:
 
 Massive order drop
-
 Customer trust breakdown
 
 Negative reviews
