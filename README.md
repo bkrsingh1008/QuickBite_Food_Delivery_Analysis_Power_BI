@@ -14,7 +14,6 @@ Restaurant churn
 
 Delivery delays
 
-Competitor advantage
 --------------------------------------------------------
 
 🎯 Project Goal
@@ -29,7 +28,6 @@ Track decline in orders and ratings
 
 Find high-value customers impacted the most
 
-Recommend strategies to rebuild trust and improve retention
 --------------------------------------------------------------------------
 
 📂 Dataset Description
@@ -46,7 +44,6 @@ Restaurant Table – ratings, performance, loyalty flag
 
 Reviews Table – customer ratings and feedback
 
-Date Table – custom calendar with crisis phases
 -------------------------------------------------------------------
 
 🔍 Approach
@@ -77,13 +74,14 @@ Crisis Orders
 
 Decline %
 
+Revenue Loss %
+
 Cancellation Rate
 
 Sentiment Score
 
 Cancelled Orders
 
-Revenue Loss %
 ------------------------------------------------------------------
 
 5️⃣ Dashboard Development
@@ -93,6 +91,7 @@ Designed clear, clutter-free visuals
 Added slicers (Month, City, Crisis Phase)
 
 Added icons, KPIs, cards, tooltips
+
 ------------------------------------------------------------
 
 🛠️ Tools & Technologies
@@ -102,6 +101,7 @@ Power BI	Data modelling, DAX, dashboard creation
 Power Query	ETL: Extract – Transform – Load
 
 DAX & KPI calculations
+
 -------------------------------------------------
 🧩 Data Model
 
@@ -111,6 +111,7 @@ DAX & KPI calculations
 ✔ Segmentation using calculated columns
 
 <img width="1430" height="689" alt="image" src="https://github.com/user-attachments/assets/7cf4438d-d9b1-41ce-ac56-2df5e2958682" />
+
 -------------------------------------------------------------------------
 
 
@@ -127,7 +128,9 @@ Repeat customers dropped significantly
 SLA compliance went down
 
 Restaurateurs lost trust → partner churn
+
 ----------------------------------------------------------------------
+
 <img width="1233" height="695" alt="image" src="https://github.com/user-attachments/assets/e5c4669f-bff2-4376-99ab-2b0cb896a624" />
 
 <img width="1220" height="683" alt="image" src="https://github.com/user-attachments/assets/c37bda00-b116-44ff-b523-ee43a82f456d" />
