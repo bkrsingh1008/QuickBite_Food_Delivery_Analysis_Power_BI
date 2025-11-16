@@ -99,7 +99,7 @@ Some major findings:
 
 <img width="1266" height="706" alt="image" src="https://github.com/user-attachments/assets/d4c03ea0-09a8-450f-9de0-2364856e9eb2" />
 
-<img width="1216" height="682" alt="image" src="https://github.com/user-attachments/assets/ad6e2f4c-feda-4c0b-954f-0a7893be8240" />
+<img width="1231" height="689" alt="image" src="https://github.com/user-attachments/assets/b8f69301-dc14-4645-bf9b-f847700cc8ea" />
 
 <img width="1241" height="682" alt="image" src="https://github.com/user-attachments/assets/a10690ae-8d4a-44d7-a91d-2bf0d316c656" />
 
