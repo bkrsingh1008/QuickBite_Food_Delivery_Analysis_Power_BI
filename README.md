@@ -1,6 +1,6 @@
 # QuickBite_Food_Delivery_Analysis_Power_BI
 ----------------------------------------------
-📘 __Project Overview__
+📘 **Project Overview**
 
 QuickBite Express — a Bengaluru-based food-tech startup — faced a major business disruption in June 2025. A viral food-safety scandal involving partner restaurants and a week-long delivery outage caused:
 
@@ -16,7 +16,7 @@ Delivery delays
 
 --------------------------------------------------------
 
-🎯 Project Goal
+🎯 **Project Goal**
 
 The goal is to deliver an interactive Power BI dashboard that helps QuickBite:
 
@@ -30,7 +30,7 @@ Find high-value customers impacted the most
 
 --------------------------------------------------------------------------
 
-📂 Dataset Description
+📂 **Dataset Description**
 
 The project uses multiple datasets such as:
 
@@ -46,7 +46,7 @@ Reviews Table – customer ratings and feedback
 
 -------------------------------------------------------------------
 
-🔍 Approach
+🔍 **Approach**
 
 2️⃣ Data Preparation
 
@@ -82,8 +82,6 @@ Sentiment Score
 
 Cancelled Orders
 
-------------------------------------------------------------------
-
 5️⃣ Dashboard Development
 
 Designed clear, clutter-free visuals
@@ -94,7 +92,7 @@ Added icons, KPIs, cards, tooltips
 
 ------------------------------------------------------------
 
-🛠️ Tools & Technologies
+🛠️ **Tools & Technologies**
 
 Power BI	Data modelling, DAX, dashboard creation
 
@@ -103,7 +101,8 @@ Power Query	ETL: Extract – Transform – Load
 DAX & KPI calculations
 
 -------------------------------------------------
-🧩 Data Model
+
+🧩 **Data Model**
 
 ✔ Star Schema
 ✔ One-to-many relationships
@@ -115,7 +114,7 @@ DAX & KPI calculations
 -------------------------------------------------------------------------
 
 
-📌 Key Insights
+📌 **Key Insights**
 
 Some major findings:
 
