@@ -1,89 +1,103 @@
 # QuickBite_Food_Delivery_Analysis_Power_BI
 ----------------------------------------------
-📌 Project Description
+📘 Project Overview
 
-QuickBite Express, a Bengaluru-based food-tech startup, faced a major crisis in June 2025 due to a viral food-safety incident and a city-wide delivery outage. This led to a sharp decline in daily orders, customer satisfaction, and restaurant partnerships.
+QuickBite Express — a Bengaluru-based food-tech startup — faced a major business disruption in June 2025. A viral food-safety scandal involving partner restaurants and a week-long delivery outage caused:
 
-This project analyzes Pre-Crisis vs Crisis performance to help QuickBite identify what went wrong and guide recovery strategies. Using Power BI, the analysis uncovers customer behavior shifts, delivery performance, rating patterns, and restaurant partner trends across different time phases.
+Massive order drop
+
+Customer trust breakdown
+
+Negative reviews
+
+Restaurant churn
+
+Delivery delays
+
+Competitor advantage
+
+This project analyzes Pre-Crisis vs Crisis vs Recovery performance using Power BI to help QuickBite leadership understand:
+
+✔ What went wrong
+✔ Which segments were impacted most
+✔ Which customers/restaurants to target in recovery
+✔ How operations & ratings changed
+✔ Where immediate improvements are needed
 
 🎯 Project Goal
 
-The main objective of this analysis is to provide QuickBite’s management with data-driven insights that can support their recovery roadmap.
-This project helps answer:
+The goal is to deliver an interactive Power BI dashboard that helps QuickBite:
 
-How badly did orders drop during the crisis?
+Compare performance across Pre-Crisis, Crisis, Recovery phases
 
-Which customer segments can be recovered?
+Identify customer behaviour changes
 
-How did delivery time, cancellations & SLA compliance change?
+Track decline in orders and ratings
 
-Which restaurants are most valuable for long-term retention?
+Find high-value customers impacted the most
 
-What campaigns can rebuild trust and increase engagement?
+Measure delivery efficiency (SLA, delays, average delivery time)
 
-How did ratings & sentiment shift before vs during the crisis?
+Identify partner restaurants at risk
 
-The final output is a Power BI interactive dashboard that empowers decision-making for business, operations, and marketing teams.
+Recommend strategies to rebuild trust and improve retention
 
-🛠️ Tools Used
-Power BI
+📂 Dataset Description
 
-Data Modelling
+The project uses multiple datasets such as:
 
-DAX Calculations (Time intelligence, Segmentation, KPIs)
+Orders Table – order_id, customer_id, restaurant_id, order date, order status, order value
 
-Interactive Visualizations & slicers
+Delivery Table – delivery time, SLA status, delays
 
-Custom measures for Pre-Crisis, Crisis, Recovery phases
+Customers Table – demographics, activity
 
-📌 Approach
-1. Understanding the Crisis
+Restaurant Table – ratings, performance, loyalty flag
 
-Created a timeline with 3 phases:
+Reviews Table – customer ratings and feedback
 
-Pre-Crisis (Jan–May 2025)
+Date Table – custom calendar with crisis phases
 
-Crisis (Jun–Sep 2025)
+🔍 Approach
+1️⃣ Identifying Crisis Phases
 
-Recovery (Oct–Dec 2025)
+Created 3 segments:
 
-2. Data Preparation
+Pre-Crisis: Jan–May 2025
 
-Built a Date Table to support monthly and phase-level analysis
+Crisis: Jun–Sep 2025
 
-Connected fact tables:
+Recovery: Oct–Dec 2025
 
-Orders table
+2️⃣ Data Preparation
 
-Customers table
+Cleaned data in Power Query
 
-Restaurants table
+Created Date Table
 
-Delivery table
+Added Crisis Phase column using date ranges
 
-Ratings/Reviews
+Ensured relationships (star model)
 
-3. Modeling
+3️⃣ Data Modeling
 
-Established star-schema relationships
+Fact Tables: Orders, Delivery, Reviews
 
-Implemented “Crisis Phase” using calculated columns and time periods
+Dimension Tables: Customers, Restaurants, Date
 
-Ensured calendar hierarchy (Year → Month → Day)
+Relationship: Date ↔ Orders as primary
 
-4. DAX Calculations
-
-Created key measures like:
+4️⃣ DAX Measures
 
 Total Orders
 
-Orders Pre-Crisis
+Pre-Crisis Orders
 
-Orders Crisis
+Crisis Orders
 
 Decline %
 
-Average Delivery Time
+Avg Delivery Time
 
 SLA Breach %
 
@@ -91,52 +105,44 @@ Repeat Customer Rate
 
 Restaurant Retention Score
 
-Ratings Trend
+5️⃣ Dashboard Development
 
-These measures allowed comparing behaviors across phases.
+Designed clear, clutter-free visuals
 
-5. Analysis & Insights
+Added slicers (Month, City, Crisis Phase)
 
-Performed in-depth analysis:
+Added icons, KPIs, cards, tooltips
 
-Monthly orders comparison
+🛠️ Tools & Technologies
+Tool	Purpose
+Power BI	Data modelling, DAX, dashboard creation
+Excel	Initial cleaning and exploration
+SQL (optional)	Data filtering and transformation
+Power Query	ETL: Extract – Transform – Load
+DAX	Time intelligence & KPI calculations
+🧩 Data Model
 
-Decline in active customers
+✔ Star Schema
+✔ One-to-many relationships
+✔ Calendar as the primary date dimension
+✔ Segmentation using calculated columns
 
-Delivery performance drop
+📌 Key Insights
 
-Rating and sentiment shifts
+Some major findings:
 
-Restaurant partner churn
+Orders dropped sharply from 23K+ per month → 9K per month
 
-Customer cohort behaviour
+Average delivery time increased during the crisis
 
-6. Dashboard Development
+Ratings fell due to delays & food-safety scare
 
-Designed a clean, interactive Power BI dashboard with pages for:
+High-value customers churned at highest rate
 
-Order Performance
+Repeat customers dropped significantly
 
-Customer Behaviour
+SLA compliance went down
 
-Delivery Insights
+Restaurateurs lost trust → partner churn
 
-Restaurant Partner Analysis
-
-Ratings & Reviews
-
-Recovery Opportunities
-
-7. Business Recommendations
-
-Based on insights, suggested:
-
-Trust-building campaigns
-
-Loyal customer incentives
-
-SLA improvements
-
-Priority restaurant partnerships
-
-Geo-specific marketing during recovery
+Crisis impact started recovering slowly from October
