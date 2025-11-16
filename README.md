@@ -3,7 +3,7 @@ QuickBite_Food_Delivery_Analysis_Power_BI
 📘 Project Overview
 -------------------------------------
 
-QuickBite Express — a Bengaluru-based food-tech startup — faced a major business disruption in June 2025. A viral food-safety scandal involving partner restaurants and a week-long delivery outage caused:
+QuickBite Express — a Bengaluru-based food-tech startup faced a major business disruption in June 2025. A viral food-safety scandal involving partner restaurants and a week-long delivery outage caused:
 
 🔻 Massive order drop
 💔 Customer trust breakdown
@@ -61,7 +61,7 @@ The project uses multiple datasets such as:
 4️⃣ Dashboard Development
 
 🎨 Designed clear, clutter-free visuals
-🎛️ Added slicers (Month, City, Crisis Phase)
+🎛️ Added slicers
 🧩 Added icons, KPIs, cards, tooltips
 
 🛠️ Tools & Technologies
@@ -76,8 +76,8 @@ The project uses multiple datasets such as:
 
 ✔️ Star Schema
 ✔️ One-to-many relationships
-✔️ Calendar as the primary date dimension
-✔️ Segmentation using calculated columns
+✔️ Calendar table
+✔️ Calculated columns
 
 <img width="1430" height="689" alt="image" src="https://github.com/user-attachments/assets/7cf4438d-d9b1-41ce-ac56-2df5e2958682" />
 
