@@ -1,6 +1,7 @@
 QuickBite_Food_Delivery_Analysis_Power_BI
 
 📘 Project Overview
+-------------------------------------
 
 QuickBite Express — a Bengaluru-based food-tech startup — faced a major business disruption in June 2025. A viral food-safety scandal involving partner restaurants and a week-long delivery outage caused:
 
@@ -11,6 +12,7 @@ QuickBite Express — a Bengaluru-based food-tech startup — faced a major busi
 ⏳ Delivery delays
 
 🎯 Project Goal
+-----------------------------------------
 
 The goal is to deliver an interactive Power BI dashboard that helps QuickBite:
 
@@ -20,6 +22,7 @@ The goal is to deliver an interactive Power BI dashboard that helps QuickBite:
 👑 Find high-value customers impacted the most
 
 📂 Dataset Description
+---------------------------------------
 
 The project uses multiple datasets such as:
 
@@ -30,20 +33,21 @@ The project uses multiple datasets such as:
 ⭐ Reviews Table – customer ratings and feedback
 
 🔍 Approach
+------------------------------------------
 
-2️⃣ Data Preparation
+1️⃣ Data Preparation
 
 🧹 Cleaned data in Power Query
 📅 Created Date Table
 📌 Added Crisis Phase column using date ranges
 🔗 Ensured relationships (star model)
 
-3️⃣ Data Modeling
+2️⃣ Data Modeling
 
 📦 Fact Tables: Orders, Delivery, Reviews
 🧱 Dimension Tables: Customers, Restaurants, Date
 
-4️⃣ DAX Measures
+3️⃣ DAX Measures
 
 🔢 Total Orders
 📊 Pre-Crisis Orders
@@ -54,19 +58,21 @@ The project uses multiple datasets such as:
 💬 Sentiment Score
 🚫 Cancelled Orders
 
-5️⃣ Dashboard Development
+4️⃣ Dashboard Development
 
 🎨 Designed clear, clutter-free visuals
 🎛️ Added slicers (Month, City, Crisis Phase)
 🧩 Added icons, KPIs, cards, tooltips
 
 🛠️ Tools & Technologies
+----------------------------------------------
 
 🟡 Power BI – Data modelling, DAX, dashboard creation
 🔵 Power Query – ETL: Extract – Transform – Load
 🧮 DAX & KPI calculations
 
 🧩 Data Model
+---------------------------------------------
 
 ✔️ Star Schema
 ✔️ One-to-many relationships
@@ -79,6 +85,7 @@ The project uses multiple datasets such as:
 
 
 📌 Key Insights
+--------------------------------------------
 
 Some major findings:
 
